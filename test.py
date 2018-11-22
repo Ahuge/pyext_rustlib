@@ -24,7 +24,9 @@ def timer(cbl, args):
 
 
 for term in [10, 20, 30, 35, 40]:
-    print("Testing %d..." % term)
+    msg = "Testing %d..." % term
+    print("=" * len(msg))
+    print(msg)
     print("  PyFib:")
     r = timer(pyfib, [term])
     print("  RustFib:")
