@@ -23,7 +23,7 @@ def timer(cbl, args):
     return result
 
 
-for term in [10, 20, 30, 35, 40]:
+for term in [10, 20, 30, 35, 36, 37, 38, 39, 40]:
     msg = "Testing %d..." % term
     print("=" * len(msg))
     print(msg)
