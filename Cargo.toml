@@ -1,0 +1,12 @@
+[package]
+name = "pyext-rusttest"
+version = "0.1.0"
+authors = ["Alex Hughes <ahughes@d2.com>"]
+
+[lib]
+name = "rusttest"
+crate-type = ["cdylib"]
+
+[dependencies.cpython]
+version = "0.2"
+features = ["extension-module"]
